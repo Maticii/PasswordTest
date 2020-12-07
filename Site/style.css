@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+}
+
+div#hiddenMessage {
+	padding-top: 10px;
+	font-size: 100px;
+	visibility: hidden;
+}
+
+div#hiddenMessage2 {
+	visibility: hidden;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+span {
+	font-size: 75px;
+	padding-top: 30px;
+}
+
+#setPassword {
+	visibility: hidden;
+}
