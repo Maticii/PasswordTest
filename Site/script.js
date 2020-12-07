@@ -9,6 +9,11 @@ function getText(){
         hiddenMessage.style.visibility= "visible";
         waited();
     }
+    else if (password === "hide") {
+        hiddenMessage.style.visibility= "hidden";
+        hiddenMessage2.style.visibility= "hidden";
+        alert("Messages Hidden Succesfully.")
+    }
 
     else {
             alert("Wrong password. Try again.")
