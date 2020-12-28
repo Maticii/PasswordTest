@@ -1,7 +1,7 @@
 var messagesVisible = false;
 var settingNewPassword = false;
 var previusPassword;
-var correctPassword = "aaacž";
+var correctPassword = "aabaa";
 
 function getText(){  
     var password=document.getElementById("password").value; 
